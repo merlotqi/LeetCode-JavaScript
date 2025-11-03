@@ -17,18 +17,18 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isSymmetric = function(root) {
+var isSymmetric = function (root) {
 
-    if(!root) return true;
+    if (!root) return true;
 
     const mirror = (left, right) => {
-        if(!left && !right) return true;
-        if(!left || !right) return false;
+        if (!left && !right) return true;
+        if (!left || !right) return false;
         return left.val === right.val && mirror(left.left, right.right) && mirror(left.right, right.left);
     }
 
     return mirror(root.left, root.right);
-    
+
 };
 // @lc code=end
 

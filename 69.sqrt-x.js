@@ -35,15 +35,15 @@
 //     return result;
 // };
 
-var mySqrt = function(x) {
+var mySqrt = function (x) {
     if (x < 2) return x;
-    
-    let guess = x >> 1; 
-    
+
+    let guess = x >> 1;
+
     while (guess * guess > x) {
         guess = (guess + Math.floor(x / guess)) >> 1;
     }
-    
+
     return guess;
 };
 // @lc code=end

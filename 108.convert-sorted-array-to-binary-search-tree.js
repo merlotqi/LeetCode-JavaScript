@@ -17,8 +17,8 @@
  * @param {number[]} nums
  * @return {TreeNode}
  */
-var sortedArrayToBST = function(nums) {
-    
+var sortedArrayToBST = function (nums) {
+
 };
 // @lc code=end
 

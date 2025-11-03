@@ -5,7 +5,8 @@ Welcome to my LeetCode JavaScript solutions repository! This collection contains
 ## 📖 About
 
 This repository serves as:
-- A personal coding practice log
-- A learning resource for JavaScript developers
-- A reference for coding interview preparation
-- A collection of algorithm implementations in JavaScript
+
+-   A personal coding practice log
+-   A learning resource for JavaScript developers
+-   A reference for coding interview preparation
+-   A collection of algorithm implementations in JavaScript

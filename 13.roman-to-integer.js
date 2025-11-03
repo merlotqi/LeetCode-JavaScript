@@ -9,7 +9,7 @@
  * @param {string} s
  * @return {number}
  */
-var romanToInt = function(s) {
+var romanToInt = function (s) {
     const romaonMap = {
         'I': 1,
         'V': 5,
@@ -23,10 +23,10 @@ var romanToInt = function(s) {
     let result = 0;
     let prev = 0;
 
-    for(let i = s.length - 1; i >= 0; i--) {
+    for (let i = s.length - 1; i >= 0; i--) {
         const current = romaonMap[s[i]];
 
-        if(current < prev) {
+        if (current < prev) {
             result -= current;
         } else {
             result += current;
